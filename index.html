@@ -1,0 +1,280 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Persnal Portfolio</title>
+    <link rel="stylesheet" href="./css/style.css" />
+    <script src="https://kit.fontawesome.com/87e7bc0f5b.js" crossorigin="anonymous"></script>
+  </head>
+
+  <body> 
+    <div id="header">
+      <div class="container">
+        <nav>
+          <img src="Images/logo122.png" class="logo" />
+          <ul>
+            <li><a href="#header">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#services">Services</a></li>
+            <li><a href="#portfolio">Portfolio</a></li>
+            <li><a href="#contact">Contact</a></li>
+            <i class="fa-solid fa-xmark" onlclick="closemenu()"></i>
+          </ul>
+          <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+        </nav>
+        <div class="header-text">
+          <p>Software Developer</p>
+          <h1>
+            Hi, I'm <span>Ninad </span><br />
+            Vaidya From India
+          </h1>
+        </div>
+      </div>
+    </div>
+
+    <!-- Header End  herrrrrrrrrree-->
+
+    <div id="about">
+      <div class="container">
+        <div class="row">
+          <div class="about-col-1">
+            <img src="Images/phone new.jpg" />
+          </div>
+
+          <div class="about-col-2">
+            <h1 class="sub-title">About Me</h1>
+            <p>
+              I'm Ninad Vaidya, a passionate second-year student pursuing a
+              Bachelor's degree in Software Development at Thakur College of
+              Engineering and Technology. With a keen interest in technology,
+              I've immersed myself in various facets of the field, gaining
+              proficiency in web frontend development, app development,
+              networking, testing, and Kali Linux. Currently honing my skills
+              through the BVoc program, My academic journey has equipped me with
+              a robust foundation, and my hands-on experience has allowed me to
+              explore the diverse landscape of software development. One of my
+              key areas of expertise is in Kali Linux, where I've engaged in
+              ethical hacking practices, understanding the nuances of
+              cybersecurity. As I look to the future, my aspirations lie in the
+              dynamic and ever-evolving field of cybersecurity. I am driven to
+              contribute my skills and knowledge to fortify digital landscapes
+              against potential threats. I am excited to embark on a journey
+              where I can leverage my multifaceted skill set to make meaningful
+              contributions in the cybersecurity domain. Join me as I navigate
+              the realms of technology, armed with a passion for innovation and
+              a commitment to excellence.
+            </p>
+
+            <div class="tab-titles">
+              <p class="tab-links active-link" onclick="opentab('skills')">
+                Skills
+              </p>
+              <p class="tab-links" onclick="opentab('Experience')">
+                Experience
+              </p>
+              <p class="tab-links" onclick="opentab('Education')">Education</p>
+            </div>
+
+            <div class="tab-contents active-tab" id="skills">
+              <ul>
+                <li>
+                  <span>Web development </span><br />
+                  Html,css
+                </li>
+
+                <li>
+                  <span>App development </span><br />Node js
+                </li>
+
+                <li><span>Testing </span><br />Webite Testing</li>
+              </ul>
+            </div>
+
+            <div class="tab-contents" id="Experience">
+              <ul>
+                <li>
+                  <span>2023- current </span><br />Thakur college of
+                  enginerrring and technology
+                </li>
+              </ul>
+            </div>
+
+            <div class="tab-contents" id="Education">
+              <ul>
+                <li><span>2019 </span><br />National English High school</li>
+
+                <li><span>2021</span><br />New Viva College of Arts, Commerce and Science</li>
+
+                <li>
+                  <span>2024</span><br />Thakur college of engineering and
+                  technology
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+<!--services -->>
+
+<div id="services">
+    <div class="container">
+            <h1 class="sub-title">My Services </h1>
+            <div class="serviceslist">
+                <div>
+                    <i class="fa-solid fa-code"></i>
+
+                    <h2>Web Development</h2>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Illum ullam voluptatem ex ipsam enim quas ea distinctio magnam repudiandae delectus explicabo laudantium, tempore sunt sed optio doloribus, animi consequatur quidem.</p>
+                    <a href="#">Learn more</a>
+                </div>
+
+                <div>
+                    <i class="fa-solid fa-crop-simple"></i>
+                    <h2>UI /UX design</h2>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Illum ullam voluptatem ex ipsam enim quas ea distinctio magnam repudiandae delectus explicabo laudantium, tempore sunt sed optio doloribus, animi consequatur quidem.</p>
+                    <a href="#">Learn more</a>
+                </div>
+
+                <div>
+                    <i class="fa-brands fa-app-store-ios"></i>
+                    <h2> App development</h2>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Illum ullam voluptatem ex ipsam enim quas ea distinctio magnam repudiandae delectus explicabo laudantium, tempore sunt sed optio doloribus, animi consequatur quidem.</p>
+                    <a href="#">Learn more</a>
+                </div>
+                      </div>
+    </div>
+</div>
+
+<div id="portfolio">
+    <div class="container">
+        <h1 class="sub-title">My work</h1>
+        <div class="work-list">
+            <div class="work">
+                <img src="Images/work-1.png" alt="">
+                <div class="layer">
+                    <h3>Social Media  APP </h3>
+                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Neque, necessitatibus!</p>
+                    <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+
+                </div>
+            </div>
+            <div class="work">
+                <img src="Images/work-2.png" alt="">
+                <div class="layer">
+                    <h3>Music   APP </h3>
+                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Neque, necessitatibus!</p>
+                    <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+
+                </div>
+
+
+            </div>
+            <div class="work">
+                <img src="Images/work-3.png" alt="">
+                <div class="layer">
+                    <h3>online shopping APP </h3>
+                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Neque, necessitatibus!</p>
+                    <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+
+                </div>
+            </div>
+
+
+        </div>
+        <a href="#" class="btn">see more </a>
+    </div>
+</div>
+
+<div id="contact">
+    <div class="container">
+        <div class="row">
+            
+            <div class="contact-left">
+                <h1 class="sub-title">Contact me </h1>
+                <p><i class="fa-solid fa-paper-plane"></i>ninadvaidya087@gmail.com</p>
+                <p><i class="fa-solid fa-square-phone"></i>9699809797</p>
+                <div class="social-icons">
+                    <a href=""> <i class="fa-brands fa-facebook"></i></a>
+                    <a href=""><i class="fa-brands fa-twitter"></i></i></a>
+                    <a href=""><i class="fa-brands fa-instagram"></i></i></a>
+                    <a href=""><i class="fa-brands fa-linkedin"></i></i></a>
+                </div>
+                  <a href="" download  class="btn-btn2">Dowload CV </a>
+            </div>
+            <div class="contact-right">
+          <form >
+            <input type="text"name="Name" placeholder="Your Name" required>
+            <input type="email"name="email" placeholder="Your Email" required>
+            <textarea name="Message"rows="6"  placeholder="Your Message "></textarea>
+            <button type="submit" class="btn btn-btn2">submit</button>
+        </form>
+            </div>
+
+        </div>
+    </div>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <script>
+  
+        var tablinks = document.getElementsByClassName("tab-links");
+        var tabcontents = document.getElementsByClassName("tab-contents");
+
+        function opentab(tabname)
+        {
+            for(tablink of tablinks)
+            {
+                tablink.classList.remove("active-link");
+
+            }
+            for(tabcontent of tabcontents)
+            {
+                tabcontent.classList.remove("active-tab");
+
+            }
+            event.currentTarget.classList.add("active-link")
+            document.getElementById(tabname).classList.add("active-tab");
+        }
+
+
+    </script>
+    <script>
+      var sidemeu=document.getElementById ("sidemenu");
+
+      function openmenu()
+      {
+        sidemeu.style.right ="0";
+      }
+      function closemenu()
+      {
+        sidemeu.style.right ="-200px";
+      }
+    </script>
+  </body>
+</html>
+
+33:37
